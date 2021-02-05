@@ -35,3 +35,7 @@ install:
 script:
   # Builds iohook and upload prebuilt binaries to Github
   - npm run build:ci
+  
+ branches:
+  only:
+  - main
